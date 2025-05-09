@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phú Phùm Phiếm Shop</title>
+
+    <!-- Link với thư viện font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Link file css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="index.html"><img src="img/logo.png" class="logo"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+
+            <!-- <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div> -->
+        </div>
+
+    </section>
+
+    <!-- homepage -->
+    <section id="page-header" class="about-header">
+        <h2>#VeChungToi</h2>
+        <p>Hãy để lại phản hổi để chúng tôi có thể cải thiện trong tương lai nhé</p>
+    </section>
+
+    <!-- Cart Page -->
+    <section id="cart" class="section-p1">
+        <table widthi="100%">
+            <thead>
+                <tr>
+                    <td>LOẠI BỎ</td>
+                    <td>HÌNH ẢNH</td>
+                    <td>SẢN PHẨM</td>
+                    <td>GIÁ BÁN</td>
+                    <td>SỐ LƯỢNG</td>
+                    <td>TỔNG THU</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/s1h1.jpg"></td>
+                    <td>Đếm cuộc đời bằng nụ cười</td>
+                    <td>$100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/s2h1.jpg"></td>
+                    <td>Đếm cuộc đời bằng nụ cười</td>
+                    <td>$100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/s3h2.jpg"></td>
+                    <td>Đếm cuộc đời bằng nụ cười</td>
+                    <td>$100</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$100</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Cart Add -->
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Áp dụng phiếu giảm giá</h3>
+
+            <div><input type="text" placeholder="Nhập code phiếu giảm giá"></div>
+            <button class="normal">Áp dụng</button>
+        </div>
+
+        <div id="subtotal">
+            <h3>Tổng Giỏ Hàng</h3>
+            <table>
+                <tr>
+                    <td>Tổng thu</td>
+                    <td>$300</td>
+                </tr>
+
+                <tr>
+                    <td>Phí chuyển hàng</td>
+                    <td>Miễn phí</td>
+                </tr>
+
+                <tr>
+                    <td><strong>Tổng</strong></td>
+                    <td><strong>$300</strong></td>
+                </tr>
+            </table>
+
+            <button class="normal">Tiến hành kiểm tra</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.png">
+            <h4>Thông Tin Liên Hệ</h4>
+            <p><strong>Địa Chỉ:</strong> Vinh Vien, quan 10, tp.HCM, VietNam</p>
+            <p><strong>Số Điện Thoại:</strong> (+81)123 456 789</p>
+            <p><strong>Thời gian làm việc:</strong> 09:00 - 16:00, Mon - Sat</p>
+
+            <div class="folow">
+                <h4>Theo Dõi Chúng Tôi</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Liên Hệ</h4>
+            <a href="#">Về Chúng Tôi</a>
+            <a href="#">Thông Tin Giao Hàng</a>
+            <a href="#">Chính Sách Bảo Mật</a>
+            <a href="#">Điều Khoản & Điều Kiện</a>
+            <a href="#">Liên Hệ Chúng Tôi</a>
+        </div>
+
+        <div class="col">
+            <h4>Tài Khoản Của Chúng</h4>
+            <a href="#">Đăng Nhập</a>
+            <a href="#">Xem Giỏ Hàng</a>
+            <a href="#">Sản Phẩm Yêu Thích</a>
+            <a href="#">Theo Dõi Đơn Hàng Của Tôi</a>
+            <a href="#">Hỗ Trợ</a>
+        </div>
+
+        <div class="col install">
+            <h4>Tải Ứng Dụng</h4>
+            <p>Từ App Store hoặc Google Pay</p>
+            <div class="row">
+                <img src="img/pay/app.jpg">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+
+            <p>Cổng Thanh Toán An Toàn</p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2025 FooFooFiemShop</p>
+        </div>
+    </footer>
+
+    <!-- insert file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
